@@ -1,7 +1,17 @@
 div {
-  color: brown;
+  color: blue;
 }
 
 h6 {
   color: brown;
+}
+
+li.red-bold-text {
+  font-weight: bold;
+  color: red;
+}
+
+#heading-2 {
+  color: green;
+  background: yellow;
 }
