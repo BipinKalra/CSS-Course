@@ -1,0 +1,35 @@
+h1 {
+  color: blue;
+  font-size: 80px;
+  /* text-shadow: <horizontal-shift> <vertical-shift> <blur> <color>; */
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  font-family: cursive-heading-font;
+}
+
+@font-face {
+  font-family: cursive-heading-font;
+  src: url(GreatVibes-Regular.ttf);
+}
+
+.subtitle {
+  font-family: sans-serif;
+  color: lightblue;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+
+.text {
+  width: 500px;
+  /* text-decoration: overline; */
+  border: solid 1px blue;
+  padding: 10px;
+
+  text-indent: 50px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 50px;
+  /* white-space: break-word; */
+}
