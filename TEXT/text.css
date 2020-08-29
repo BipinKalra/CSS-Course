@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   /* background-image: url(tree.png);
   background-repeat: no-repeat;
@@ -12,7 +16,8 @@ body {
 
 h1 {
   color: blue;
-  font-size: 80px;
+  /* px, em, rem, vh, vw, vmin, vmax, %, cm, inches, pts */
+  font-size: 10vmin; 
   /* text-shadow: <horizontal-shift> <vertical-shift> <blur> <color>; */
   text-shadow: 5px 5px 5px black;
   text-align: center;
@@ -37,6 +42,7 @@ h1 {
 .text {
   width: 500px;
   box-sizing: border-box;
+  /* font-size: 2em; */
   /* text-decoration: overline; */
   /* border: solid 1px blue; */
   /* border-style: solid dotted dashed solid; */
@@ -59,9 +65,13 @@ h1 {
 
 .unordered-list {
   /* margin-top: 300px; */
-  font-size: 30px;
+  /* font-size: 30px; */
   list-style-type: none;
   list-style-position: outside;
+}
+
+.unordered-list li {
+  font-size: 1.5rem;
 }
 
 ol {
